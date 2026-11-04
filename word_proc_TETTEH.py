@@ -8,9 +8,9 @@ import math
 
 
 # DEBUGGING CONSTANTS
-SHOW_DATA = True            # (optional) set to False to not show the lists in the beginning
-RANDOM_WORD = ""            # (optional) change this to look for a specific word
-RANDOM_INT = -1             # (optional) change this to look for a specific integer
+SHOW_DATA = True            
+RANDOM_WORD = ""            
+RANDOM_INT = -1             
 
 
 # -- FILE IMPORT AND PRE-PROCESSING -- #
@@ -30,9 +30,9 @@ def get_file_data() -> list:
         new_entries.append(ls)
         
 
-    # Write importing code here
+    
 
-    return new_entries       # replace me with the actual data
+    return new_entries       
 
 def all_words(n:list) -> list:
     ''' Returns a list of only the words from the data
@@ -99,7 +99,7 @@ def word_sort(n:list):
     
 
 
-# !!!!! DO *NOT* CHANGE ANYTHING BELOW  !!!! #
+
 
 def main():
 
